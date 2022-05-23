@@ -1,4 +1,4 @@
-package com.generation;
+package com.generation.f20220523;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
@@ -8,11 +8,10 @@ public class Ejercicio1 {
 
 
         //formula area triangulo a = (altura * base) / 2;
-        long alturaTri = 4;
-        long baseTri = 5;
+        float alturaTri = 4f;
+        float baseTri = 5.24f;
         int dos = 2;
-        long radioCir = 4;
-        long diametroCir = 5;
+        float radioCir = 4.4587f;
         float PI = 3.14f;
 
         //impresion
@@ -32,8 +31,8 @@ public class Ejercicio1 {
         System.out.println("************************");
         System.out.println("**CALCULO DE PERIMETRO**");
         System.out.println("************************");
-
-        System.out.println("El perimetro de un circulo es " + (" "));
+        //formula = 2 * pi * radio
+        System.out.println("El perimetro de un circulo es " + (dos * PI * radioCir));
 
 
     }
