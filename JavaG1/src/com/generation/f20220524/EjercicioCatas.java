@@ -1,5 +1,7 @@
 package com.generation.f20220524;
 
+import java.util.Scanner;
+
 public class EjercicioCatas {
     public static void main(String[] args) {
         /* if else y switch*/
