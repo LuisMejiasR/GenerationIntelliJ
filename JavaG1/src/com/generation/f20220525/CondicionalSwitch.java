@@ -7,7 +7,7 @@ public class CondicionalSwitch {
         Scanner sc = new Scanner(System.in);
         //menu
         System.out.println("Ingrese opcion:");
-        System.out.println("1 18 a 29 \n 2 30 - 49 \n 3 50 - 69 \n 4 más de 70\n 0 para salir");
+        System.out.println(" 1 18 a 29 \n 2 30 - 49 \n 3 50 - 69 \n 4 más de 70\n 0 para salir");
         int opcion = sc.nextInt();
         //PEDIR LAS VARIABLES AQUI, FUERA DEL SWITCH
         switch (opcion) {
